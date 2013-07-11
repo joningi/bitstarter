@@ -41,7 +41,6 @@ var checkHtmlFile = function(htmlfile, checksfile) {
 };
 
 var checkString = function(string, checksfile) {
-    console.log(string);
     $ = cheerioString(string);
     var checks = loadChecks(checksfile).sort();
     var out = {};
